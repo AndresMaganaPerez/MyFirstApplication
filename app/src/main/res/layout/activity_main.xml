@@ -21,12 +21,15 @@
             android:text="My first Kotlin App"
             android:textSize="34sp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
+        <EditText
             android:id="@+id/EditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
