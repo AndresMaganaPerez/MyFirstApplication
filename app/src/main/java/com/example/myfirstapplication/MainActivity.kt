@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
             myString = myEditText.text.toString()
 
             if (myString == ""){
-
+                myTextView.text = "Empty"
             } else {
-
+                myTextView.text = myString
             }
 
             // myTextView.text = myString
